@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thomas Dawe — Kyros</title>
+  <meta name="description" content="Thomas Dawe — founder at Kyros. Automation consultancy & software studio. Pragmatic systems, LLM agents, i18n pipelines, and developer experience." />
+  <style>
+    :root{
+      --bg: #0b0d10;
+      --panel: #0f1318;
+      --text: #e6edf3;
+      --muted: #9aa7b2;
+      --link: #6aa4ff;
+      --accent: #58a6ff;
+      --border: #1f2832;
+      --chip: #16202a;
+      --code: #0d1117;
+      --radius: 14px;
+      --shadow: 0 8px 24px rgba(0,0,0,.25);
+      --maxw: 980px;
+    }
+    @media (prefers-color-scheme: light) {
+      :root{
+        --bg:#f7f9fc; --panel:#ffffff; --text:#0b1220; --muted:#4e5b6a;
+        --link:#1f6feb; --accent:#1f6feb; --border:#e6edf3; --chip:#f0f4f9; --code:#f6f8fa;
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji","Segoe UI Emoji";}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:40px 20px}
+    header{display:flex;flex-direction:column;gap:16px;margin-bottom:24px}
+    .title{font-size:clamp(32px,6vw,56px);line-height:1.1;margin:0}
+    .tagline{font-size:1.05rem;color:var(--muted);margin:0}
+    .quote{margin:8px 0 0 0;color:var(--muted);border-left:4px solid var(--accent);padding:8px 12px;background:transparent}
+    .section{margin:28px 0 0}
+    .panel{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+    h2{font-size:clamp(20px,3vw,28px);margin:0 0 12px}
+    ul{padding-left:22px;margin:0}
+    .list-compact li{margin:6px 0}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+    .chip{background:var(--chip);border:1px solid var(--border);padding:6px 10px;border-radius:999px;font-size:.92rem;color:var(--text)}
+    .icons img{max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)}
+    .grid{display:grid;gap:14px}
+    @media (min-width:720px){ .grid{grid-template-columns:repeat(2,1fr)} }
+    @media (min-width:1040px){ .grid{grid-template-columns:repeat(3,1fr)} }
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow)}
+    .card h3{margin:0 0 8px;font-size:1rem;letter-spacing:.2px;color:var(--muted)}
+    .projects li{margin:10px 0}
+    .activity-rows{display:grid;gap:16px}
+    @media (min-width:900px){ .activity-rows{grid-template-columns:1fr 1fr} }
+    footer{margin:40px 0 0;text-align:left;color:var(--muted)}
+    .views{margin-top:8px}
+    .kbd{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; background:var(--code); border:1px solid var(--border); padding:.1em .4em; border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 class="title">Thomas</h1>
+      <p class="tagline">I build pragmatic systems that connect tools, teams, and data so the boring bits do themselves. Fluent in Japanese (日本語OK).</p>
+      <p class="quote"><em>I'm learning everything as I go, so any and all feedback is greatly welcome!</em></p>
+    </header>
+
+    <section class="section panel">
+      <h2>Focus</h2>
+      <ul class="list-compact">
+        <li>🚀 <strong>kyros.Praxis</strong> — prompt-driven automation & agent orchestration (testable prompts, CI/CD for automations, Crew-style flows)</li>
+        <li>🤖 <strong>Translation & localisation</strong> — fully automated pipelines with quality gates</li>
+        <li>🧰 <strong>Developer interests</strong> — clean CLIs, reproducible environments, idempotent jobs, strong observability</li>
+        <li>🐧 <strong>Homelab</strong> — Arch (CachyOS) desktop + Ubuntu server + Windows laptop on 10GbE; self-hosted Docker; trying to optimise for fast local builds and LLM evaluation</li>
+      </ul>
+    </section>
+
+    <section class="section panel">
+      <h2>Trying to get better at...</h2>
+      <ul class="chips">
+        <li class="chip">Automation architectures</li>
+        <li class="chip">Python</li>
+        <li class="chip">TypeScript / React</li>
+        <li class="chip">FastAPI</li>
+        <li class="chip">Node / Express</li>
+        <li class="chip">Docker / Kubernetes</li>
+        <li class="chip">CI/CD (GitHub Actions)</li>
+        <li class="chip">Event-driven systems</li>
+        <li class="chip">Retrieval / LLM agents, AI in general</li>
+        <li class="chip">i18n pipelines</li>
+        <li class="chip">Linux tweaking/customization</li>
+        <li class="chip">Notion / Linear / Task Managment</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Tech I use</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Backend</h3>
+          <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,celery,redis"
+               alt="Backend: Python, FastAPI, Flask, Node.js, Express,  Celery, Redis" loading="lazy"/>
+        </div>
+        <div class="card">
+          <h3>Frontend</h3>
+          <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,vite"
+               alt="Frontend: TypeScript, JavaScript, React, Next.js, Tailwind, Vite" loading="lazy"/>
+        </div>
+        <div class="card">
+          <h3>Data &amp; Search</h3>
+          <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,elasticsearch"
+               alt="Data & Search: Postgres, Redis, MongoDB, Elasticsearch" loading="lazy"/>
+        </div>
+        <div class="card">
+          <h3>DevOps</h3>
+          <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,terraform,nginx,grafana,prometheus"
+               alt="DevOps: Docker, Kubernetes, GitHub Actions, Terraform, Nginx, Grafana, Prometheus" loading="lazy"/>
+        </div>
+        <div class="card">
+          <h3>Platform</h3>
+          <img src="https://skillicons.dev/icons?i=arch,ubuntu,gcp,cloudflare,azure,aws"
+               alt="Platform: Arch, Ubuntu, GCP, Cloudflare, Azure, AWS" loading="lazy"/>
+        </div>
+        <div class="card">
+          <h3>Editor</h3>
+          <img src="https://skillicons.dev/icons?i=bash,vscode,pycharm,webstorm"
+               alt="Editors: tmux, Code OSS, PyCharm, Webstorm" loading="lazy"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Featured projects</h2>
+      <ul class="projects">
+        <li>🔡 <strong>GengoWatcher</strong> (TUI/Web) — translation workflow &amp; vendor-API tooling<br/>
+          <a href="https://github.com/tdawe1/gengowatcher-tui">gengowatcher-tui</a> ·
+          <a href="https://github.com/tdawe1/gengowatcher-web">gengowatcher-web</a>
+        </li>
+        <li>🧪 <strong>kyros.Praxis</strong> — prompt-driven development for agents &amp; automations<br/>
+          <a href="https://github.com/tdawe1/kyros-praxis">kyros-praxis</a> ·
+          <a href="https://github.com/tdawe1/kyros-console">kyros-console</a> ·
+          <a href="https://github.com/tdawe1/kyros-praxis-rewrite">kyros-praxis-rewrite</a>
+        </li>
+        <li>🌐 <strong>Kyros Website</strong> — marketing site &amp; contact<br/>
+          <a href="https://github.com/tdawe1/kyros-website">kyros-website</a> ·
+          <a href="https://kyros.solutions">kyros.solutions</a> ·
+          <a href="https://github.com/tdawe1/kyros-website-react">kyros-website-react</a>
+        </li>
+        <li>🌏 <strong>Translation Tools</strong> (kyros.Lexis) — programmatic i18n helpers<br/>
+          <a href="https://github.com/tdawe1/translation-tools">translation-tools</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Activity</h2>
+      <div class="activity-rows">
+        <a href="https://github.com/tdawe1" aria-label="Activity graph">
+          <img
+            src="https://github-readme-activity-graph.vercel.app/graph?username=tdawe1&bg_color=0d1117&color=58a6ff&line=58a6ff&point=1f6feb&area=true&hide_border=true"
+            alt="GitHub activity graph for tdawe1"
+            loading="lazy"
+            style="width:100%;border-radius:12px;border:1px solid var(--border)"
+          />
+        </a>
+        <div>
+          <a href="https://github.com/tdawe1" aria-label="Top languages and stats">
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs?username=tdawe1&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide=roff"
+              alt="Top languages"
+              loading="lazy"
+              style="width:100%;border-radius:12px;border:1px solid var(--border);margin-bottom:12px"
+            />
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=tdawe1&show_icons=true&theme=tokyonight&rank_icon=github"
+              alt="GitHub stats"
+              loading="lazy"
+              style="width:100%;border-radius:12px;border:1px solid var(--border)"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Connect</h2>
+      <p>🌐 Website: <a href="https://kyros.solutions" rel="noopener">kyros.solutions</a><br/>
+         📬 Email: <a href="mailto:thomas@kyros.solutions">thomas@kyros.solutions</a></p>
+      <p style="margin:6px 0 0;color:var(--muted)"><small>Last updated: 15 Oct 2025</small></p>
+    </section>
+
+    <footer>
+      <p><span class="kbd">README</span> generated from the GitHub profile content.</p>
+    </footer>
+  </div>
+</body>
+</html>
