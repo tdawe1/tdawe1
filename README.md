@@ -16,7 +16,7 @@ I build pragmatic systems that connect tools, teams, and data so the boring bits
 
 ## Trying to get better at...
 
-`Automation architectures` `Python` `TypeScript / React` `FastAPI` `Node / Express` `Docker / Kubernetes` `CI/CD (GitHub Actions)` `Event-driven systems` `Retrieval / LLM agents, AI in general` `i18n pipelines` `Linux tweaking/customization` `Notion / Linear / Task Managment`
+`Automation architectures` `Python` `TypeScript / React` `FastAPI` `Node / Express` `Docker / Kubernetes` `CI/CD (GitHub Actions)` `Event-driven systems` `Retrieval / LLM agents, AI in general` `i18n pipelines` `Linux tweaking/customization` `Notion / Linear / Task Management`
 
 ## Tech I use
 
@@ -36,7 +36,7 @@ I build pragmatic systems that connect tools, teams, and data so the boring bits
 ![Platform: Arch, Ubuntu, GCP, Cloudflare, Azure, AWS](https://skillicons.dev/icons?i=arch,ubuntu,gcp,cloudflare,azure,aws)
 
 ### Editor
-![Editors: tmux, Code OSS, PyCharm, Webstorm](https://skillicons.dev/icons?i=bash,vscode,pycharm,webstorm)
+![Editors: Bash, VS Code, PyCharm, WebStorm](https://skillicons.dev/icons?i=bash,vscode,pycharm,webstorm)
 
 ## Featured projects
 
