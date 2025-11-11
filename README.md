@@ -1,7 +1,4 @@
-# Thomas
-
-I build pragmatic systems that connect tools, teams, and data so the boring bits do themselves. Fluent in Japanese (日本語OK).
-
+tdawe
 > *I'm learning everything as I go, so any and all feedback is greatly welcome!*
 
 ## Focus
