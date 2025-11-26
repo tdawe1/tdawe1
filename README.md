@@ -13,15 +13,15 @@ tdawe
 
 ## Trying to get better at...
 
-`Automation architectures` `Python` `TypeScript / React` `FastAPI` `Node / Express` `Docker / Kubernetes` `CI/CD (GitHub Actions)` `Event-driven systems` `Retrieval / LLM agents, AI in general` `i18n pipelines` `Linux tweaking/customization` `Notion / Linear / Task Management`
+`Automation architectures` `Python` `TypeScript / React` `FastAPI` `Node / Express` `Docker / Kubernetes` `CI/CD (GitHub Actions)` `Event-driven systems` `Retrieval / LLM agents, AI in general` `i18n pipelines` `Linux tweaking/customization` `Task Management`
 
 ## Tech I use
 
 ### Backend
-![Backend: Python, FastAPI, Flask, Node.js, Express, Celery, Redis](https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,celery,redis)
+![Backend: Python, FastAPI, Node.js, Celery, Redis](https://skillicons.dev/icons?i=python,fastapi,nodejs,celery,redis)
 
 ### Frontend
-![Frontend: TypeScript, JavaScript, React, Next.js, Tailwind, Vite](https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,vite)
+![Frontend: TypeScript, Next.js, Tailwind](https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,vite)
 
 ### Data & Search
 ![Data & Search: Postgres, Redis, MongoDB, Elasticsearch](https://skillicons.dev/icons?i=postgres,redis,mongodb,elasticsearch)
@@ -30,7 +30,7 @@ tdawe
 ![DevOps: Docker, Kubernetes, GitHub Actions, Terraform, Nginx, Grafana, Prometheus](https://skillicons.dev/icons?i=docker,kubernetes,githubactions,terraform,nginx,grafana,prometheus)
 
 ### Platform
-![Platform: Arch, Ubuntu, GCP, Cloudflare, Azure, AWS](https://skillicons.dev/icons?i=arch,ubuntu,gcp,cloudflare,azure,aws)
+![Platform: Arch, Ubuntu, GCP](https://skillicons.dev/icons?i=arch,ubuntu,gcp)
 
 ### Editor
 ![Editors: Bash, VS Code, PyCharm, WebStorm](https://skillicons.dev/icons?i=bash,vscode,pycharm,webstorm)
@@ -38,16 +38,18 @@ tdawe
 ## Featured projects
 
 🔡 **GengoWatcher** (TUI/Web) — translation workflow & vendor-API tooling  
-[gengowatcher-tui](https://github.com/tdawe1/gengowatcher-tui) · [gengowatcher-web](https://github.com/tdawe1/gengowatcher-web)
+[GengoWatcher](https://github.com/tdawe1/GengoWatcher) · [gengowatcher-tui](https://github.com/tdawe1/gengowatcher-tui) · [gengowatcher-web](https://github.com/tdawe1/gengowatcher-web)
+
+🌏 **Translation Tools** (kyros.Lexis) — programmatic i18n helpers - zero touch translation pipeline for PDF, PPT, DOCX, XSLX, semi-auto iteration
+[translation-tools](https://github.com/tdawe1/translation-tools)
 
 🧪 **kyros.Praxis** — prompt-driven development for agents & automations  
 [kyros-praxis](https://github.com/tdawe1/kyros-praxis) · [kyros-console](https://github.com/tdawe1/kyros-console) · [kyros-praxis-rewrite](https://github.com/tdawe1/kyros-praxis-rewrite)
 
-🌐 **Kyros Website** — marketing site & contact  
+🌐 **portfolio-placeholders** - [saas-portal-template](https://github.com/tdawe1/saas-portal) [translation-portfolio-template](https://github.com/tdawe1/translation-portfolio-template) **kyros Website** — AI & assisted coding learning projects from a product angle
 [kyros-website](https://github.com/tdawe1/kyros-website) · [kyros.solutions](https://kyros.solutions) · [kyros-website-react](https://github.com/tdawe1/kyros-website-react)
 
-🌏 **Translation Tools** (kyros.Lexis) — programmatic i18n helpers  
-[translation-tools](https://github.com/tdawe1/translation-tools)
+**Other** - D&D campaign manager (React), local RAG+other agents, local STT and voice control framework, Techne (prompt library/Chrome), Matrix self-host
 
 ## Activity
 
@@ -63,9 +65,11 @@ tdawe
 
 ## Connect
 
+@tdawe.net @dawe.studio @dawe.works
+
 🌐 Website: [kyros.solutions](https://kyros.solutions)  
 📬 Email: [thomas@kyros.solutions](mailto:thomas@kyros.solutions)
 
 ---
 
-*Last updated: 15 Oct 2025*
+*Last updated: 26 Nov 2025*
