@@ -1,19 +1,3 @@
-tdawe
-> *I'm learning everything as I go, so any and all feedback is greatly welcome!*
-
-## Focus
-
-🚀 **kyros.Praxis** — prompt-driven automation & agent orchestration (testable prompts, CI/CD for automations, Crew-style flows)
-
-🤖 **Translation & localisation** — fully automated pipelines with quality gates
-
-🧰 **Developer interests** — clean CLIs, reproducible environments, idempotent jobs, strong observability
-
-🐧 **Homelab** — Arch (CachyOS) desktop + Ubuntu server + Windows laptop on 10GbE; self-hosted Docker; trying to optimise for fast local builds and LLM evaluation
-
-## Trying to get better at...
-
-`Automation architectures` `Python` `TypeScript / React` `FastAPI` `Node / Express` `Docker / Kubernetes` `CI/CD (GitHub Actions)` `Event-driven systems` `Retrieval / LLM agents, AI in general` `i18n pipelines` `Linux tweaking/customization` `Task Management`
 
 ## Tech I use
 
