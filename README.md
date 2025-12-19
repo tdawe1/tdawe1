@@ -1,15 +1,15 @@
 ## Featured projects
 
-🔡 **GengoWatcher** (TUI/Web) — translation workflow & vendor-API tooling  
-[GengoWatcher](https://github.com/tdawe1/GengoWatcher) 
+🔡 [**GengoWatcher**](https://github.com/tdawe1/GengoWatcher) — translation workflow & vendor-API tooling  
 
-🌏 **Translation Tools** (kyros.Lexis) — programmatic i18n helpers - zero touch translation pipeline for PDF, PPT, DOCX, XSLX, semi-auto iteration
-[translation-tools](https://github.com/tdawe1/translation-tools)
+
+🌏 [**Translation Tools**](https://github.com/tdawe1/translation-tools) — programmatic i18n helpers - zero touch translation pipeline for PDF, PPT, DOCX, XSLX, semi-auto iteration
+
 
 🧪 **AI Orchestration** — prompt-driven development for agents & automations  
-[kyros-praxis](https://github.com/tdawe1/kyros-praxis) 
+[Control Plane](https://github.com/tdawe1/fullstack-ai-workflow-system)
+[PRD Generator](https://github.com/tdawe1/genai-trading-architect)
 
-(https://github.com/tdawe1/fullstack-ai-workflow-system)
 
 ## Activity
 
