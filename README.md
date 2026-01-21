@@ -1,14 +1,9 @@
-## Featured projects
 
 🔡 [**GengoWatcher**](https://github.com/tdawe1/GengoWatcher) — translation workflow & vendor-API tooling  
 
 
 🌏 [**Translation Tools**](https://github.com/tdawe1/translation-tools) — programmatic i18n helpers - zero touch translation pipeline for PDF, PPT, DOCX, XSLX, semi-auto iteration
 
-
-🧪 **AI Orchestration** — prompt-driven development for agents & automations  
-[Control Plane](https://github.com/tdawe1/fullstack-ai-workflow-system)
-[PRD Generator](https://github.com/tdawe1/genai-trading-architect)
 
 
 ## Activity
